@@ -7,15 +7,13 @@ This script defines a **2-Armed Bandit Task** for decision-making experiments. P
 ## ✨ How It Works
 
 - There are **25 trials** where a participant must choose **Bandit 1 (Orange) or Bandit 2 (Blue)**.
-- Each bandit has a **90% chance of giving a reward** and a **10% chance of failure (reward = 0)**.
-- **Bandit 1** generally has higher rewards than Bandit 2.
-- The rewards per trial are randomized based on probability.
+- Each bandit has a **80% chance of giving a reward** and a **20% chance of failure (reward = 0)**.
 
 ### **Reward Structure**
 | Bandit  | Success Probability | Possible Rewards |
 |---------|--------------------|-----------------|
-| **Bandit 1 (Orange)** | 90% | **5 - 10** (higher avg reward) |
-| **Bandit 2 (Blue)** | 90% | **1 - 10** (more variable) |
-| Failure (for both) | 10% | **0 (no reward)** |
+| **Bandit 1 (Orange)** | 80% | **1** |
+| **Bandit 2 (Blue)** | 80% | **1** |
+| Failure (for both) | 20% | **0 (no reward)** |
 
 ---
